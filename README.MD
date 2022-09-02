@@ -27,9 +27,17 @@ Next we have nlp_model.py, which looks at the text data we collected from WSB.
 
 The first thing the main part does is pull in the data and quickly process it for special characters, single characters, multiple spaces, converting to lowercase, etc. and lemmatization, into a final corpus. The FastText model is then defined and all the words in out corpus are vectorized.  
 
-To keep things simple, I am looking just at a master list of a handful of tickers: 'tsla', 'amzn', 'qqq', 'spy', 'aapl', 'gme', 'meta', 'oil', 'amc', 'msft', 'amd', 'nvda', 'msft', 'dis', 'hood', 'coin', 'baba', 'snap', 'sofi', 'f', 'bb', 'twtr', 'bbby'.
+To keep things simple, I am looking just at a master list of a handful of tickers: 
 
-I then look at the cosine similarity between these tickers and a few bullish terms: 'bull', 'bullish', 'green', 'moon', 'buy', 'calls', 'long', 'up', 'rally', 'pump', and bearish terms: 'bear', 'bearish', 'red', 'crash', 'puts', 'sell', 'short', 'down', 'tank', 'dump'.
+`'tsla', 'amzn', 'qqq', 'spy', 'aapl', 'gme', 'meta', 'oil', 'amc', 'msft', 'amd', 'nvda', 'msft', 'dis', 'hood', 'coin', 'baba', 'snap', 'sofi', 'f', 'bb', 'twtr', 'bbby'`.
+
+I then look at the cosine similarity between these tickers and a few bullish terms: 
+
+`'bull', 'bullish', 'green', 'moon', 'buy', 'calls', 'long', 'up', 'rally', 'pump'`, 
+
+and bearish terms: 
+
+`'bear', 'bearish', 'red', 'crash', 'puts', 'sell', 'short', 'down', 'tank', 'dump'`.
 
 **Output**
 
