@@ -6,10 +6,10 @@ As a weekend project, I decided to look at some basic sentiment on the popular S
 
 **Quick Start**
 
--Clone the repo
--Navigate to where you cloned the repo
--Make sure you have Docker Desktop installed!!
--run:
+- Clone the repo
+- Navigate to where you cloned the repo
+- Make sure you have Docker Desktop installed!!
+- run:
 `docker-compose up`
 
 Note: WSB can be a very active forum, so depending on the time of day that you run this, it can take a while to pull comments (over an hour).
