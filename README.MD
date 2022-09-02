@@ -1,4 +1,4 @@
-##**Wallstreetbets NLP model looks at Cosine Similarity between some common tickers and a few bullish/bearish words!**
+**Wallstreetbets NLP model looks at Cosine Similarity between some common tickers and a few bullish/bearish words!**
 
 **Summary**
 
